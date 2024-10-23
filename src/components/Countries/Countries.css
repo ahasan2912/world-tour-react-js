@@ -1,0 +1,17 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.visited{
+    background-color: bisque;
+    color: black;
+}
+.flag-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.flag-container img{
+    width: 150px;
+}
